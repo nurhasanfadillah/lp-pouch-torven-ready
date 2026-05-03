@@ -26,15 +26,15 @@ export default function DtfWorkflow() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="relative bg-jisoi-cream rounded-[24px] p-6 text-center"
+              className="relative bg-torven-cream rounded-[24px] p-6 text-center"
             >
-              <div className="w-10 h-10 bg-jisoi-red text-white font-bold rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-10 h-10 bg-torven-navy text-white font-bold rounded-full flex items-center justify-center mx-auto mb-3">
                 {i + 1}
               </div>
               <h3 className="font-display font-bold text-sm mb-2">{step.title}</h3>
-              <p className="text-xs text-jisoi-text/60">{step.description}</p>
+              <p className="text-xs text-torven-text/60">{step.description}</p>
               {i < WORKFLOW_STEPS.length - 1 && (
-                <div className="hidden md:block absolute top-1/2 -right-3 text-jisoi-red/30">→</div>
+                <div className="hidden md:block absolute top-1/2 -right-3 text-torven-navy/30">→</div>
               )}
             </motion.div>
           ))}
@@ -43,7 +43,7 @@ export default function DtfWorkflow() {
         <div className="text-center mt-8">
           <Button
             size="lg"
-            className="bg-jisoi-amber text-jisoi-burgundy"
+            className="bg-torven-amber text-torven-navy"
             asChild
           >
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">

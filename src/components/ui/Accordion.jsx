@@ -9,7 +9,7 @@ export function Accordion({ ...props }) {
 export function AccordionItem({ className, ...props }) {
   return (
     <AccordionPrimitive.Item
-      className={cn("border-b border-jisoi-border", className)}
+      className={cn("border-b border-torven-border", className)}
       {...props}
     />
   )
@@ -36,7 +36,7 @@ export function AccordionContent({ className, children, ...props }) {
   return (
     <AccordionPrimitive.Content
       className={cn(
-        "overflow-hidden text-sm text-jisoi-text/80 data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",
+        "overflow-hidden text-sm text-torven-text/80 data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",
         className
       )}
       {...props}

@@ -6,7 +6,7 @@ import { WHATSAPP_LINK_PREFILLED } from "@/data/landingContent"
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen pt-16 flex items-center bg-gradient-to-br from-jisoi-black via-jisoi-burgundy to-jisoi-red">
+    <section className="relative min-h-screen pt-16 flex items-center bg-gradient-to-br from-torven-navy via-torven-navyMid to-torven-navyLight">
       <Container className="grid md:grid-cols-2 gap-4 md:gap-8 items-center py-10 sm:py-14 md:py-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-3 mb-6">
             <Button
               size="lg"
-              className="bg-jisoi-amber text-jisoi-burgundy hover:bg-jisoi-amber/90"
+              className="bg-torven-amber text-torven-navy hover:bg-torven-amber/90"
               asChild
             >
               <a href={WHATSAPP_LINK_PREFILLED} target="_blank" rel="noopener noreferrer">
@@ -56,14 +56,14 @@ export default function Hero() {
           <div className="relative bg-white/10 backdrop-blur rounded-[32px] p-4 md:p-6 border border-white/20 overflow-hidden">
             <img
               src="/images/sample-custom-logo-pouch.png"
-              alt="Custom Pouch Jisoi dengan Logo - Sample Hasil Cetak DTF"
+              alt="Custom Pouch TORVEN dengan Logo - Sample Hasil Cetak DTF"
               className="w-full h-auto rounded-[24px] object-cover"
               loading="lazy"
             />
-            <div className="absolute top-4 right-4 bg-jisoi-amber text-jisoi-burgundy text-[10px] font-bold px-2 py-1 rounded-full">
+            <div className="absolute top-4 right-4 bg-torven-amber text-torven-navy text-[10px] font-bold px-2 py-1 rounded-full">
               Full Color DTF
             </div>
-            <div className="absolute bottom-4 left-4 bg-jisoi-burgundy text-white text-[10px] font-bold px-2 py-1 rounded-full">
+            <div className="absolute bottom-4 left-4 bg-torven-navy text-white text-[10px] font-bold px-2 py-1 rounded-full">
               D300 Material
             </div>
           </div>

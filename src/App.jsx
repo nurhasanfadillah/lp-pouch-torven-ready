@@ -15,7 +15,7 @@ import FinalCta from "@/components/sections/FinalCta"
 
 function App() {
   return (
-    <div className="min-h-screen bg-jisoi-cream">
+    <div className="min-h-screen bg-torven-cream">
       <Header />
       <main className="pb-14 md:pb-0">
         <Hero />

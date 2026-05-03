@@ -7,10 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        jisoi: {
-          red: "#B11226",
-          burgundy: "#3A050B",
-          black: "#12090A",
+        torven: {
+          navy: "#0B1F3A",
+          navyDark: "#061525",
+          navyLight: "#1E3A5F",
+          navyMid: "#0F2847",
           cream: "#FFF7F2",
           sand: "#E8D4C2",
           amber: "#FFB23F",
@@ -23,7 +24,7 @@ export default {
         body: ["DM Sans", "Manrope", "sans-serif"]
       },
       boxShadow: {
-        glow: "0 18px 60px rgba(177, 18, 38, 0.25)",
+        glow: "0 18px 60px rgba(11, 31, 58, 0.25)",
         amber: "0 12px 32px rgba(255, 178, 63, 0.28)"
       }
     },

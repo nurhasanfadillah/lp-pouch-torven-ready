@@ -11,7 +11,7 @@ const WHY_IMAGES = {
 
 export default function WhyJisoi() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-cream">
+    <section className="py-10 sm:py-14 md:py-20 bg-torven-cream">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -20,7 +20,7 @@ export default function WhyJisoi() {
           className="text-center mb-8 sm:mb-10 md:mb-12"
         >
           <h2 className="text-[30px] md:text-[38px] font-display font-bold leading-[1.1] mb-4">
-            Kenapa bisnis dan event cocok pakai Jisoi?
+            Kenapa bisnis dan event cocok pakai TORVEN?
           </h2>
         </motion.div>
 
@@ -34,25 +34,25 @@ export default function WhyJisoi() {
           >
             <img
               src={WHY_IMAGES[0]}
-              alt="Produksi Jisoi - Mesin DTF printing"
+              alt="Produksi TORVEN - Mesin DTF printing"
               className="w-full h-32 md:h-48 object-cover rounded-[24px]"
               loading="lazy"
             />
             <img
               src={WHY_IMAGES[1]}
-              alt="Produksi Jisoi - Quality control"
+              alt="Produksi TORVEN - Quality control"
               className="w-full h-32 md:h-48 object-cover rounded-[24px]"
               loading="lazy"
             />
             <img
               src={WHY_IMAGES[2]}
-              alt="Proses Cetak DTF Jisoi - Hasil cetak full color"
+              alt="Proses Cetak DTF TORVEN - Hasil cetak full color"
               className="w-full h-32 md:h-48 object-cover rounded-[24px]"
               loading="lazy"
             />
             <img
               src={WHY_IMAGES[3]}
-              alt="Tim Jisoi - Admin responsif siap membantu"
+              alt="Tim TORVEN - Admin responsif siap membantu"
               className="w-full h-32 md:h-48 object-cover rounded-[24px]"
               loading="lazy"
             />
@@ -69,12 +69,12 @@ export default function WhyJisoi() {
               <motion.div
                 key={i}
                 whileHover={{ y: -2 }}
-                className="p-4 bg-white rounded-[16px] border border-jisoi-border hover:border-jisoi-red/50 hover:shadow-lg transition-all duration-200 cursor-default"
+                className="p-4 bg-white rounded-[16px] border border-torven-border hover:border-torven-navy/50 hover:shadow-lg transition-all duration-200 cursor-default"
               >
-                <div className="text-lg font-display font-bold text-jisoi-red mb-1">
+                <div className="text-lg font-display font-bold text-torven-navy mb-1">
                   {item.title}
                 </div>
-                <p className="text-sm text-jisoi-text/70">{item.copy}</p>
+                <p className="text-sm text-torven-text/70">{item.copy}</p>
               </motion.div>
             ))}
           </motion.div>

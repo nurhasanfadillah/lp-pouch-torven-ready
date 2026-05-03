@@ -21,7 +21,7 @@ export default function ProblemSolution() {
           viewport={{ once: true }}
         >
           <h2 className="text-[30px] md:text-[38px] font-display font-bold leading-[1.1] mb-6">
-            Vendor merchandise sering ribet. Jisoi dibuat lebih fleksibel.
+            Vendor merchandise sering ribet. TORVEN dibuat lebih fleksibel.
           </h2>
         </motion.div>
         <motion.div
@@ -33,14 +33,14 @@ export default function ProblemSolution() {
           {PROBLEMS.map((problem, i) => (
             <div
               key={i}
-              className="flex items-start gap-3 p-3 bg-jisoi-cream rounded-[24px]"
+              className="flex items-start gap-3 p-3 bg-torven-cream rounded-[24px]"
             >
-              <span className="text-jisoi-red font-bold">✕</span>
-              <span className="text-sm text-jisoi-text/80">{problem}</span>
+              <span className="text-torven-navy font-bold">✕</span>
+              <span className="text-sm text-torven-text/80">{problem}</span>
             </div>
           ))}
-          <p className="text-sm text-jisoi-text/80 mt-4 pl-3">
-            Dengan mockup gratis, tanpa minimum order, dan kapasitas produksi 30.000 pcs/bulan, Jisoi bisa dipakai untuk sample, event kecil, sampai produksi merchandise massal.
+          <p className="text-sm text-torven-text/80 mt-4 pl-3">
+            Dengan mockup gratis, tanpa minimum order, dan kapasitas produksi 30.000 pcs/bulan, TORVEN bisa dipakai untuk sample, event kecil, sampai produksi merchandise massal.
           </p>
           <Button
             variant="secondary"

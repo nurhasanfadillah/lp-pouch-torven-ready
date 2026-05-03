@@ -16,15 +16,15 @@ const CLIENT_LOGOS = [
 
 export default function TrustStrip() {
   return (
-    <section className="bg-jisoi-cream py-6 overflow-hidden">
+    <section className="bg-torven-cream py-6 overflow-hidden">
       <Container>
-        <p className="text-center text-xs text-jisoi-text/50 mb-4 font-medium uppercase tracking-wider">
+        <p className="text-center text-xs text-torven-text/50 mb-4 font-medium uppercase tracking-wider">
           Telah dipercaya oleh brand besar
         </p>
         <div className="relative">
           {/* Gradient fade edges for mobile */}
-          <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-jisoi-cream to-transparent z-10 pointer-events-none md:hidden" />
-          <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-jisoi-cream to-transparent z-10 pointer-events-none md:hidden" />
+          <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-torven-cream to-transparent z-10 pointer-events-none md:hidden" />
+          <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-torven-cream to-transparent z-10 pointer-events-none md:hidden" />
 
           <div className="flex gap-8 overflow-x-auto pb-2 md:flex-wrap md:justify-center md:overflow-visible items-center [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {CLIENT_LOGOS.map((logo, i) => (
@@ -52,9 +52,9 @@ export default function TrustStrip() {
               transition={{ delay: i * 0.1 }}
               className="flex-shrink-0"
             >
-              <div className="flex items-center gap-2 px-4 py-2 bg-white border border-jisoi-border rounded-full text-sm hover:border-jisoi-red/50 transition-colors">
-                <span className="font-semibold text-jisoi-red">{item.label}</span>
-                <span className="text-jisoi-text/60 text-xs">{item.proof}</span>
+              <div className="flex items-center gap-2 px-4 py-2 bg-white border border-torven-border rounded-full text-sm hover:border-torven-navy/50 transition-colors">
+                <span className="font-semibold text-torven-navy">{item.label}</span>
+                <span className="text-torven-text/60 text-xs">{item.proof}</span>
               </div>
             </motion.div>
           ))}

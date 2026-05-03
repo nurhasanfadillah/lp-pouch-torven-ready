@@ -6,7 +6,7 @@ import { PRICING, WHATSAPP_LINK } from "@/data/landingContent"
 
 export default function Pricing() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-burgundy text-white" id="harga">
+    <section className="py-10 sm:py-14 md:py-20 bg-torven-navy text-white" id="harga">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -30,20 +30,20 @@ export default function Pricing() {
               className="relative bg-white/10 backdrop-blur rounded-[32px] p-4 sm:p-6 md:p-8 border border-white/20"
             >
               {plan.badge && (
-                <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-jisoi-amber text-jisoi-burgundy">
+                <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-torven-amber text-torven-navy">
                   {plan.badge}
                 </Badge>
               )}
               <div className="text-sm text-white/60 mb-2">{plan.label}</div>
               <div className="flex items-baseline gap-1 mb-4">
-                <span className="text-5xl font-display font-bold text-jisoi-amber">
+                <span className="text-5xl font-display font-bold text-torven-amber">
                   {plan.price}
                 </span>
                 <span className="text-sm text-white/60">{plan.unit}</span>
               </div>
               <p className="text-sm text-white/70 mb-6">{plan.bestFor}</p>
               <Button
-                className="w-full bg-jisoi-amber text-jisoi-burgundy hover:bg-jisoi-amber/90"
+                className="w-full bg-torven-amber text-torven-navy hover:bg-torven-amber/90"
                 asChild
               >
                 <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">

@@ -5,12 +5,12 @@ import { Phone } from "lucide-react"
 
 export default function Header() {
   return (
-    <header className="fixed top-0 z-50 w-full h-16 bg-jisoi-burgundy/80 backdrop-blur-md">
+    <header className="fixed top-0 z-50 w-full h-16 bg-torven-navy/80 backdrop-blur-md">
       <Container className="flex items-center justify-between h-full">
         <div className="flex items-center gap-2">
-          <img src="/images/logo-jisoi.png" alt="Jisoi Logo" className="h-8 w-auto" />
+          <img src="/images/logo-torven.png" alt="TORVEN Logo" className="h-8 w-auto" />
           <span className="font-display text-lg text-white font-bold hidden sm:block">
-            Jisoi Official Store
+            TORVEN INDUSTRIES
           </span>
         </div>
         <div className="hidden md:flex items-center gap-6">

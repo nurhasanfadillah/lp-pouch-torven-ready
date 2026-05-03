@@ -10,7 +10,7 @@ import { FAQ_ITEMS } from "@/data/landingContent"
 
 export default function Faq() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-cream" id="faq">
+    <section className="py-10 sm:py-14 md:py-20 bg-torven-cream" id="faq">
       <Container className="max-w-3xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -34,7 +34,7 @@ export default function Faq() {
                 <AccordionTrigger className="text-left">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-jisoi-text/70">
+                <AccordionContent className="text-torven-text/70">
                   {item.answer}
                 </AccordionContent>
               </AccordionItem>

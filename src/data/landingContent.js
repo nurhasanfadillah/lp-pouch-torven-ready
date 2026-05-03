@@ -1,14 +1,15 @@
-export const WHATSAPP_LINK = "https://wa.me/6285156196907"
+export const WHATSAPP_LINK = "https://wa.me/6285641511328"
 export const WHATSAPP_LINK_PREFILLED =
-  "https://wa.me/6285156196907?text=Halo%20Jisoi%2C%20saya%20ingin%20konsultasi%20custom%20pouch%20untuk%20merchandise%2Fevent"
+  "https://wa.me/6285641511328?text=Halo%20TORVEN%2C%20saya%20ingin%20konsultasi%20custom%20pouch%20untuk%20merchandise%2Fevent"
 
 export const BUSINESS_INFO = {
-  brand: "Jisoi Official Store",
+  brand: "TORVEN INDUSTRIES",
   company: "PT. Redone Berkah Mandiri Utama",
   address: "Jl. Raya Cileungsi-Jonggol Km. 10, Cipeuang, Cileungsi, Bogor, Jawa Barat 16820",
-  website: "www.jisoi.net",
-  email: "info@jisoi.net",
-  whatsapp: "6285156196907",
+  website: "www.torvenindustries.com",
+  instagram: "torven_industries",
+  tiktok: "@torvenofficial",
+  whatsapp: "6285641511328",
 }
 
 export const PRODUCT_INFO = {
@@ -52,7 +53,7 @@ export const TESTIMONIALS = [
     name: "Rina Pratama",
     company: "PT Kreatif Digital",
     role: "Marketing Manager",
-    quote: "Jisoi sangat membantu untuk merchandise event kami. Prosesnya cepat, mockupnya akurat, dan hasil cetaknya memuaskan. Sudah order 3x untuk event berbeda!",
+    quote: "TORVEN sangat membantu untuk merchandise event kami. Prosesnya cepat, mockupnya akurat, dan hasil cetaknya memuaskan. Sudah order 3x untuk event berbeda!",
     image: "https://i.pravatar.cc/150?img=1&u=rina",
     rating: 5,
   },
@@ -68,7 +69,7 @@ export const TESTIMONIALS = [
     name: "Siti Nurhaliza",
     company: "Studio Desain Grafis",
     role: "Founder",
-    quote: "Free mockup-nya sangat membantu untuk presentasi ke klien. Klien bisa lihat preview sebelum produksi. Turnover time Jisoi juga cepat, cocok untuk deadline ketat.",
+    quote: "Free mockup-nya sangat membantu untuk presentasi ke klien. Klien bisa lihat preview sebelum produksi. Turnover time TORVEN juga cepat, cocok untuk deadline ketat.",
     image: "https://i.pravatar.cc/150?img=3&u=siti",
     rating: 5,
   },
@@ -76,7 +77,7 @@ export const TESTIMONIALS = [
     name: "Ahmad Wijaya",
     company: "Startup Tech SouvenirID",
     role: "CEO",
-    quote: "Untuk souvenir giveaway di meetup tech kami, Jisoi adalah pilihan terbaik. Kualitas bagus, proses fleksibel, dan tim responsif di WhatsApp. Highly recommended!",
+    quote: "Untuk souvenir giveaway di meetup tech kami, TORVEN adalah pilihan terbaik. Kualitas bagus, proses fleksibel, dan tim responsif di WhatsApp. Highly recommended!",
     image: "https://i.pravatar.cc/150?img=4&u=ahmad",
     rating: 5,
   },
@@ -86,7 +87,7 @@ export const FAQ_ITEMS = [
   {
     question: "Apakah benar tanpa minimal order?",
     answer:
-      "Ya, Jisoi melayani order kecil. Untuk harga lebih hemat, tersedia harga khusus mulai minimal 10 pcs.",
+      "Ya, TORVEN melayani order kecil. Untuk harga lebih hemat, tersedia harga khusus mulai minimal 10 pcs.",
   },
   {
     question: "Apakah bisa cetak logo full color?",
@@ -96,7 +97,7 @@ export const FAQ_ITEMS = [
   {
     question: "Apakah desain dibantu?",
     answer:
-      "Ya. Jisoi menyediakan free desain mockup agar Anda bisa melihat simulasi sebelum produksi.",
+      "Ya. TORVEN menyediakan free desain mockup agar Anda bisa melihat simulasi sebelum produksi.",
   },
   {
     question: "Warna apa yang ready stock?",
@@ -111,7 +112,7 @@ export const FAQ_ITEMS = [
   {
     question: "Bagaimana cara order?",
     answer:
-      "Klik tombol WhatsApp, sampaikan jumlah, warna, logo/desain, dan deadline. Tim Jisoi akan membantu proses berikutnya.",
+      "Klik tombol WhatsApp, sampaikan jumlah, warna, logo/desain, dan deadline. Tim TORVEN akan membantu proses berikutnya.",
   },
 ]
 
@@ -155,7 +156,7 @@ export const WORKFLOW_STEPS = [
   },
   {
     title: "Kirim logo/desain",
-    description: "Tim Jisoi bantu cek file desain.",
+    description: "Tim TORVEN bantu cek file desain.",
   },
   {
     title: "Dapat mockup gratis",

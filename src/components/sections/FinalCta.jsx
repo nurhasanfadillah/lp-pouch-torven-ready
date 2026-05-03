@@ -5,7 +5,7 @@ import { WHATSAPP_LINK } from "@/data/landingContent"
 
 export default function FinalCta() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-red">
+    <section className="py-10 sm:py-14 md:py-20 bg-torven-navy">
       <Container className="text-center text-white">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -20,11 +20,11 @@ export default function FinalCta() {
           </p>
           <Button
             size="lg"
-            className="bg-jisoi-amber text-jisoi-burgundy hover:bg-jisoi-amber/90"
+            className="bg-torven-amber text-torven-navy hover:bg-torven-amber/90"
             asChild
           >
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-              Chat WhatsApp Jisoi
+              Chat WhatsApp TORVEN
             </a>
           </Button>
           <p className="text-sm text-white/60 mt-4">

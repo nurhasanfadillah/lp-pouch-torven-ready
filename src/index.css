@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply bg-jisoi-cream text-jisoi-text font-body antialiased;
+    @apply !bg-torven-cream !text-torven-text font-body antialiased;
   }
 
   h1, h2, h3, h4, h5, h6 {

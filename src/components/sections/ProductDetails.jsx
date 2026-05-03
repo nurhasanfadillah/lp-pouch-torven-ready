@@ -8,15 +8,15 @@ const SPECS = [
     icon: Ruler,
     label: "Ukuran",
     value: PRODUCT_INFO.size,
-    color: "text-jisoi-red",
-    bg: "bg-jisoi-red/10",
+    color: "text-torven-navy",
+    bg: "bg-torven-navy/10",
   },
   {
     icon: Layers,
     label: "Bahan",
     value: PRODUCT_INFO.material,
-    color: "text-jisoi-burgundy",
-    bg: "bg-jisoi-burgundy/10",
+    color: "text-torven-navy",
+    bg: "bg-torven-navy/10",
   },
   {
     icon: Droplets,
@@ -38,7 +38,7 @@ const SPECS = [
 
 export default function ProductDetails() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-jisoi-cream" id="produk">
+    <section className="py-10 sm:py-14 md:py-20 bg-torven-cream" id="produk">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -65,10 +65,10 @@ export default function ProductDetails() {
               className="w-full h-auto rounded-[32px] shadow-lg"
               loading="lazy"
             />
-            <div className="absolute top-4 right-4 bg-jisoi-amber text-jisoi-burgundy text-xs font-bold px-3 py-1 rounded-full">
+            <div className="absolute top-4 right-4 bg-torven-amber text-torven-navy text-xs font-bold px-3 py-1 rounded-full">
               DTF Print Area
             </div>
-            <div className="absolute top-4 left-4 bg-jisoi-burgundy text-white text-xs font-bold px-3 py-1 rounded-full">
+            <div className="absolute top-4 left-4 bg-torven-navy text-white text-xs font-bold px-3 py-1 rounded-full">
               Water Repellent
             </div>
           </motion.div>
@@ -96,7 +96,7 @@ export default function ProductDetails() {
                     <div className={`w-10 h-10 rounded-xl ${spec.bg} flex items-center justify-center mb-3`}>
                       <Icon className={`w-5 h-5 ${spec.color}`} />
                     </div>
-                    <p className="text-xs font-medium text-jisoi-text/50 uppercase tracking-wide mb-1">
+                    <p className="text-xs font-medium text-torven-text/50 uppercase tracking-wide mb-1">
                       {spec.label}
                     </p>
                     <p className={`font-display font-bold ${spec.color} leading-tight`}>
@@ -125,10 +125,10 @@ export default function ProductDetails() {
                         <Icon className={`w-4 h-4 ${spec.color}`} />
                       </div>
                       <div>
-                        <p className="text-xs font-medium text-jisoi-text/50 uppercase tracking-wide mb-0.5">
+                        <p className="text-xs font-medium text-torven-text/50 uppercase tracking-wide mb-0.5">
                           {spec.label}
                         </p>
-                        <p className="text-sm font-semibold text-jisoi-text/80 leading-snug">
+                        <p className="text-sm font-semibold text-torven-text/80 leading-snug">
                           {spec.value}
                         </p>
                       </div>
@@ -144,7 +144,7 @@ export default function ProductDetails() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.4 }}
-              className="flex items-center gap-3 bg-white/70 rounded-2xl p-4 border border-jisoi-border"
+              className="flex items-center gap-3 bg-white/70 rounded-2xl p-4 border border-torven-border"
             >
               <div className="flex gap-1.5">
                 {["bg-black", "bg-gray-400", "bg-blue-600", "bg-red-700", "bg-amber-500"].map((c, i) => (
@@ -154,7 +154,7 @@ export default function ProductDetails() {
                   />
                 ))}
               </div>
-              <p className="text-sm font-medium text-jisoi-text/70">
+              <p className="text-sm font-medium text-torven-text/70">
                 {PRODUCT_INFO.colors}
               </p>
             </motion.div>

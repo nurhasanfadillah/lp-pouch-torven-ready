@@ -16,8 +16,8 @@ export default function Testimonials() {
           <h2 className="text-[30px] md:text-[38px] font-display font-bold leading-[1.1] mb-4">
             Dipercaya oleh ribuan pelanggan puas
           </h2>
-          <p className="text-lg text-jisoi-text/60 max-w-2xl mx-auto">
-            Dengarkan pengalaman nyata dari mereka yang sudah menggunakan Jisoi untuk merchandise dan event mereka.
+          <p className="text-lg text-torven-text/60 max-w-2xl mx-auto">
+            Dengarkan pengalaman nyata dari mereka yang sudah menggunakan TORVEN untuk merchandise dan event mereka.
           </p>
         </motion.div>
 
@@ -29,20 +29,20 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="flex-shrink-0 w-full md:w-auto bg-jisoi-cream rounded-[24px] p-6 border border-jisoi-border hover:border-jisoi-red/30 transition-colors"
+              className="flex-shrink-0 w-full md:w-auto bg-torven-cream rounded-[24px] p-6 border border-torven-border hover:border-torven-navy/30 transition-colors"
             >
               {/* Rating */}
               <div className="flex gap-1 mb-4">
                 {Array.from({ length: testimonial.rating }).map((_, j) => (
                   <Star
                     key={j}
-                    className="w-4 h-4 fill-jisoi-amber text-jisoi-amber"
+                    className="w-4 h-4 fill-torven-amber text-torven-amber"
                   />
                 ))}
               </div>
 
               {/* Quote */}
-              <p className="text-sm text-jisoi-text/80 mb-6 leading-relaxed">
+              <p className="text-sm text-torven-text/80 mb-6 leading-relaxed">
                 "{testimonial.quote}"
               </p>
 
@@ -52,7 +52,7 @@ export default function Testimonials() {
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}
-                    className="w-12 h-12 rounded-full bg-jisoi-sand object-cover"
+                    className="w-12 h-12 rounded-full bg-torven-sand object-cover"
                     loading="lazy"
                     onError={(e) => {
                       e.target.style.display = 'none'
@@ -61,16 +61,16 @@ export default function Testimonials() {
                   />
                   {/* Fallback avatar */}
                   <div
-                    className="w-12 h-12 rounded-full bg-jisoi-red/20 items-center justify-center text-jisoi-red font-bold text-sm hidden absolute top-0 left-0"
+                    className="w-12 h-12 rounded-full bg-torven-navy/20 items-center justify-center text-torven-navy font-bold text-sm hidden absolute top-0 left-0"
                   >
                     {testimonial.name.split(' ').map(n => n[0]).join('').slice(0, 2)}
                   </div>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-jisoi-text">
+                  <p className="text-sm font-semibold text-torven-text">
                     {testimonial.name}
                   </p>
-                  <p className="text-xs text-jisoi-text/60">
+                  <p className="text-xs text-torven-text/60">
                     {testimonial.role} · {testimonial.company}
                   </p>
                 </div>
@@ -87,8 +87,8 @@ export default function Testimonials() {
           transition={{ delay: 0.4 }}
           className="text-center mt-12"
         >
-          <p className="text-sm text-jisoi-text/60">
-            <span className="font-semibold text-jisoi-red">✓ 99%</span> kepuasan pelanggan berdasarkan 500+ ulasan
+          <p className="text-sm text-torven-text/60">
+            <span className="font-semibold text-torven-navy">✓ 99%</span> kepuasan pelanggan berdasarkan 500+ ulasan
           </p>
         </motion.div>
       </Container>

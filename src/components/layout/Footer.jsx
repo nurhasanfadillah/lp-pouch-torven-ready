@@ -4,11 +4,11 @@ import { BUSINESS_INFO } from "@/data/landingContent"
 
 export default function Footer() {
   return (
-    <footer className="bg-jisoi-black text-white py-12 pb-20 sm:pb-24 md:pb-12">
+    <footer className="bg-torven-navy text-white py-12 pb-20 sm:pb-24 md:pb-12">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <img src="/images/logo-jisoi.png" alt="Jisoi Logo" className="h-10 w-auto mb-4" />
+            <img src="/images/logo-torven.png" alt="TORVEN Logo" className="h-10 w-auto mb-4" />
             <h3 className="font-display text-lg mb-3">{BUSINESS_INFO.brand}</h3>
             <p className="text-sm text-white/70">{BUSINESS_INFO.company}</p>
           </div>
@@ -22,13 +22,18 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href={`mailto:${BUSINESS_INFO.email}`} className="hover:text-white">
-                  {BUSINESS_INFO.email}
+                <a href={WHATSAPP_LINK} className="hover:text-white">
+                  WhatsApp: {BUSINESS_INFO.whatsapp}
                 </a>
               </li>
               <li>
-                <a href={WHATSAPP_LINK} className="hover:text-white">
-                  WhatsApp: {BUSINESS_INFO.whatsapp}
+                <a href={`https://instagram.com/${BUSINESS_INFO.instagram}`} target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                  Instagram: @{BUSINESS_INFO.instagram}
+                </a>
+              </li>
+              <li>
+                <a href={`https://tiktok.com/${BUSINESS_INFO.tiktok}`} target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                  TikTok: {BUSINESS_INFO.tiktok}
                 </a>
               </li>
             </ul>

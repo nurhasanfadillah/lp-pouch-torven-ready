@@ -34,7 +34,7 @@ export default function UseCases() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.05 }}
-              className="bg-jisoi-cream rounded-[16px] p-3 overflow-hidden"
+              className="bg-torven-cream rounded-[16px] p-3 overflow-hidden"
             >
               <div className="relative rounded-[12px] overflow-hidden mb-3 aspect-square">
                 <img
@@ -45,7 +45,7 @@ export default function UseCases() {
                 />
               </div>
               <h3 className="font-display font-bold text-sm mb-1">{useCase.title}</h3>
-              <p className="text-xs text-jisoi-text/70">{useCase.copy}</p>
+              <p className="text-xs text-torven-text/70">{useCase.copy}</p>
             </motion.div>
           ))}
         </div>
