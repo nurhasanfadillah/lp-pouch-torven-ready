@@ -1,28 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c/Users/USER/.config/opencode//**)",
-      "Read(//c/Users/USER/.config/opencode/**)",
-      "Read(//c/Users/USER/.claude/skills//**)",
-      "Read(//c/Users/USER/.agents/skills//**)",
-      "WebSearch",
-      "Bash(rm -rf /c/Users/USER/.claude/skills/ai-humanizer)",
       "Bash(git clone *)",
-      "Read(//tmp/**)",
-      "Bash(mkdir -p /c/Users/USER/.claude/skills/humanizer)",
-      "Bash(cp -r /tmp/humanizer-skill/* /c/Users/USER/.claude/skills/humanizer/)",
-      "Bash(npm install *)",
-      "Bash(npm run *)",
-      "Bash(cp \"C:/Users/USER/Documents/Proyek/aset-images/tim-admin.jpeg\" /c/Users/USER/Documents/Proyek/PROJECT-APP/Landing-Page/landing-page-jisoi/ver-3/public/images/)",
-      "Bash(cp \"C:/Users/USER/Documents/Proyek/aset-images/cetak-dtf.jpeg\" /c/Users/USER/Documents/Proyek/PROJECT-APP/Landing-Page/landing-page-jisoi/ver-3/public/images/)",
-      "Bash(cp \"C:/Users/USER/Documents/Proyek/aset-images/logo-jisoi.png\" /c/Users/USER/Documents/Proyek/PROJECT-APP/Landing-Page/landing-page-jisoi/ver-3/public/images/logo-jisoi.png)",
-      "Bash(cp \"C:/Users/USER/Documents/Proyek/aset-images/logo-jisoi.png\" /c/Users/USER/Documents/Proyek/PROJECT-APP/Landing-Page/landing-page-jisoi/ver-3/public/favicon.svg)",
-      "Bash(git init *)",
-      "Bash(git config *)",
-      "Bash(gh auth *)",
       "Bash(gh repo *)",
-      "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(npx tailwind *)",
+      "Bash(node -e \"import\\('./tailwind.config.js'\\).then\\(m => console.log\\(Object.keys\\(m.default.theme.extend.colors\\)\\)\\)\")",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(netlify link *)",
+      "Bash(netlify deploy *)"
     ]
   }
 }
