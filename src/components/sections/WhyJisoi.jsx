@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { Container } from "@/components/ui/Container"
-import { WHY_JISOI } from "@/data/landingContent"
+import { WHY_TORVEN } from "@/data/landingContent"
 
 const WHY_IMAGES = {
   0: "/images/produksi-1.jpeg",
@@ -11,7 +11,7 @@ const WHY_IMAGES = {
 
 export default function WhyJisoi() {
   return (
-    <section className="py-10 sm:py-14 md:py-20 bg-torven-cream">
+    <section className="py-10 sm:py-14 md:py-20 bg-torven-cream" id="keunggulan">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -65,7 +65,7 @@ export default function WhyJisoi() {
             viewport={{ once: true }}
             className="grid grid-cols-1 sm:grid-cols-2 gap-4"
           >
-            {WHY_JISOI.map((item, i) => (
+            {WHY_TORVEN.map((item, i) => (
               <motion.div
                 key={i}
                 whileHover={{ y: -2 }}

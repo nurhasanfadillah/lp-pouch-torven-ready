@@ -58,7 +58,8 @@ export default function Hero() {
               src="/images/sample-custom-logo-pouch.png"
               alt="Custom Pouch TORVEN dengan Logo - Sample Hasil Cetak DTF"
               className="w-full h-auto rounded-[24px] object-cover"
-              loading="lazy"
+              loading="eager"
+              fetchpriority="high"
             />
             <div className="absolute top-4 right-4 bg-torven-amber text-torven-navy text-[10px] font-bold px-2 py-1 rounded-full">
               Full Color DTF

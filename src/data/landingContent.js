@@ -172,7 +172,30 @@ export const WORKFLOW_STEPS = [
   },
 ]
 
-export const WHY_JISOI = [
+export const PROBLEM_SOLUTIONS = [
+  {
+    problem: "MOQ terlalu tinggi untuk testing desain.",
+    solution: "Tanpa minimum order — mulai dari 1 pcs.",
+  },
+  {
+    problem: "Deadline event mepet.",
+    solution: "Produksi selesai dalam 3–5 hari kerja.",
+  },
+  {
+    problem: "Takut hasil cetak tidak sesuai ekspektasi.",
+    solution: "Free mockup gratis sebelum produksi dimulai.",
+  },
+  {
+    problem: "Harga custom sering tidak transparan.",
+    solution: "Harga jelas Rp20.000–Rp25.000/pcs, tertera langsung di halaman ini.",
+  },
+  {
+    problem: "Butuh vendor yang sanggup order kecil dan besar.",
+    solution: "Kapasitas 30.000 pcs/bulan — dari 1 pcs sampai kebutuhan massal.",
+  },
+]
+
+export const WHY_TORVEN = [
   {
     title: "Tanpa minimum order",
     copy: "Mulai dari kebutuhan kecil tanpa tekanan MOQ.",

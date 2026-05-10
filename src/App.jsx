@@ -21,12 +21,12 @@ function App() {
         <Hero />
         <TrustStrip />
         <ProblemSolution />
+        <WhyJisoi />
         <Testimonials />
         <ProductDetails />
         <DtfWorkflow />
         <UseCases />
         <Pricing />
-        <WhyJisoi />
         <Faq />
         <FinalCta />
       </main>

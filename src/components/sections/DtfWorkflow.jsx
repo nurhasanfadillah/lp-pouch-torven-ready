@@ -43,7 +43,7 @@ export default function DtfWorkflow() {
         <div className="text-center mt-8">
           <Button
             size="lg"
-            className="bg-torven-amber text-torven-navy"
+            className="bg-torven-amber text-torven-navy hover:bg-torven-amber/90"
             asChild
           >
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">

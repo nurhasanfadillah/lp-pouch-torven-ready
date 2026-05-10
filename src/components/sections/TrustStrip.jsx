@@ -37,7 +37,7 @@ export default function TrustStrip() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.05 }}
-                className="h-8 w-auto object-contain flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
+                className="h-12 w-auto object-contain flex-shrink-0 transition-all duration-300"
               />
             ))}
           </div>
